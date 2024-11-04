@@ -9,6 +9,12 @@
     margin: 0 auto;
     padding: 0 25px;
 }
+.container2{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
 
 button {
     outline: none;
@@ -37,17 +43,13 @@ button {
   body {
     font-family: "League Spartan", serif;
   }
- 
-.header1{
-    background-color: #F3F3F3;
-}
 .header-h1{
     display: flex;
     justify-content: center;
     align-items:center ;
-    max-width: 1180px;
     width: 100%;
     padding: 8px 0 9px 0;
+    background-color: #F3F3F3;
 }
 .header-h1 h1{
 font-size: 12px;
@@ -100,7 +102,7 @@ line-height: 15.68px;
 }
 .main-head1{
     width: 430px;
-    padding-top: 272px;
+    padding: 272px 0 0 130px;
 display: flex;
 flex-direction: column;
 gap: 40px;
@@ -109,16 +111,72 @@ justify-content: left;
 align-items: start;
 }
 .main-head1 h1{
+    width: 430px;
 font-size: 80px;
 font-weight: 500;
 line-height: 96px;
 }
 .main-head1 button{
+
     border: 1px solid white;
     color: white;
     padding: 18px 30px 14px 30px;
-    width: 151px;
 font-size: 14px;
 font-weight: 700;
 line-height: 15.68px;
+}
+
+
+
+.main1-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main1-head h4{
+    width: 608px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36.4px;
+    text-align: center;
+}
+.main1-center{
+    display: flex;
+    gap: 20px;
+}
+.main1-center-image2{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+}
+.main1-center-image3{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+}
+.main1-center-image1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    width: 380px;
+    background-image: url(./images/character-withgreeen-purce.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main1-center-image1-h1{
+font-size: 24px;
+font-weight: 500;
+line-height: 33.6px;
+text-align: center;
+}
+.main1-center-image1-button{
+    width: 189px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 30px 15px 30px;
+font-size: 12px;
+font-weight: 600;
+line-height: 13.44px;
 }
