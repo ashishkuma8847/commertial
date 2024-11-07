@@ -35,7 +35,7 @@ button {
   }
   
   body {
-    font-family: "League Spartan", serif;
+    font-family: "Spartan";
   }
 .header-h1{
     display: flex;
@@ -54,7 +54,7 @@ line-height: 13.44px;
 
 
 .header-nav1{
-    margin: 40px 0 38px 0;
+    padding: 40px 0 38px 0;
 }
 .header-main{
     display: flex;
@@ -133,7 +133,7 @@ line-height: 15.68px;
     justify-content: center;
 }
 .main1-head h4{
-    width: 608px;
+    width: 780px;
     font-size: 28px;
     font-weight: 400;
     line-height: 36.4px;
@@ -156,7 +156,7 @@ line-height: 15.68px;
 .main1-center-image1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 432px;
     gap: 32px;
     width: 380px;
     background-image: url(./images/character-withgreeen-purce.svg);
@@ -327,21 +327,190 @@ text-align: center;
     }
 
 
-
+.main4-section{
+    margin-bottom: 130px;
+}
 .main4{
     display: flex;
+    gap: 70px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .main4-head1{
+    gap: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.main1-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 .main4-p{
 font-size: 12px;
 font-weight: 600;
 line-height: 14.4px;
+}
+.main4-head2-h1{
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+}
+.main4-head2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main5-sction{
+    margin-bottom: 130px;
+}
+.main5-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    justify-content: center;
+}
+.main5-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.main5-heading-font1{
+font-size: 24px;
+font-weight: 500;
+line-height: 33.6px;
+}
+.main5-heading-font2{
+font-size: 13px;
+font-weight: 400;
+line-height: 16.9px;
+}
+.main5{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.main5-main-images{
+    display: flex;
+    gap: 20px;
+}
+.main5-main-images1{
+    display: flex;
+    gap: 20px;
+    max-width: 280px;
+    width: 100%;
+    height: 280px;
+background-image: url(./images/last-whitepurse.svg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.main5-main-images2{
+    display: flex;
+    gap: 20px;
+    max-width: 280px;
+    width: 100%;
+    height: 280px;
+    background-image: url(./images/last-pinkpuse.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main5-main-images3{
+    gap: 20px;
+    display: flex;
+    max-width: 280px;
+    width: 100%;
+    height: 280px;
+    background-image: url(./images/last-golden-brownpuse.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main5-main-images4{
+    gap: 20px;
+    display: flex;
+    max-width: 280px;
+    width: 100%;
+    height: 280px;
+    background-image: url(./images/last-pure-brown.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main5-h4{
+font-size: 13px;
+font-weight: 700;
+line-height: 15.6px;
+text-align: center;
+}
+.mian5-heart-head{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+.mian5-heart-head:hover{
+background-color: #0000004D;
+}
+.main5-main-heart{
+    transition: all ease-in-out 0.3s;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.main5-main-images1:hover .main5-main-heart,
+.main5-main-images2:hover .main5-main-heart,
+.main5-main-images3:hover .main5-main-heart,
+.main5-main-images4:hover .main5-main-heart{
+opacity: 1;
+}
+
+
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.main-footer1{
+    width: 100%;
+    padding: 1px;
+    background-color: #D8D8D8;
+    border-radius: 5px;
+}
+.main-footer2{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.main-footer2-sectio1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer2-sectio1-image2{
+    display: flex;
+    gap: 10px;
+}
+.sectio1-images1{
+    padding: 12px;
+    border: 1px solid #D8D8D8;
+    border-radius: 50%;
 }
