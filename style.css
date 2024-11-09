@@ -126,15 +126,20 @@ body {
 }
 
 .main-head1 button {
-
+    font-family: "Spartan";
     border: 1px solid white;
     color: white;
     padding: 18px 30px 14px 30px;
     font-size: 14px;
     font-weight: 700;
     line-height: 15.68px;
+    transition: all 0.3s ease-in-out;
 }
-
+.main-head1 button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
 .main1-section {
     margin-bottom: 130px;
 }
@@ -181,7 +186,6 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 432px;
-    gap: 32px;
     width: 380px;
     background-image: url(./images/character-withgreeen-purce.svg);
     background-position: center;
@@ -197,16 +201,22 @@ body {
 }
 
 .main1-center-image1-button {
-    margin: 0 auto;
-    width: 189px;
+    font-family: "Spartan";
+    margin: 32px auto 0 auto;
+    width: 191px;
     color: white;
     border: 1px solid white;
     padding: 20px 30px 15px 30px;
     font-size: 12px;
     font-weight: 600;
     line-height: 13.44px;
+    transition: all 0.3s ease-in-out;
 }
-
+.main1-center-image1-button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
 .main1-center-image2-purse1 {
     width: 380px;
     height: 320px;
@@ -254,7 +264,15 @@ body {
     font-weight: 500;
     line-height: 28.8px;
 }
-
+.image2-purse-h2{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13.44px;
+    color: black;
+}
+.image2-purse-h2{
+    display: none;
+}
 .main1-center-image2-purse4:hover .image2-purse-h1,
 .main1-center-image2-purse3:hover .image2-purse-h1,
 .main1-center-image2-purse2:hover .image2-purse-h1,
@@ -281,8 +299,9 @@ body {
 }
 
 .main2-images {
+    width: 100%;
+    justify-content: space-between;
     display: flex;
-    gap: 20px;
 }
 
 .main2-images1 {
@@ -344,12 +363,29 @@ body {
     line-height: 19.2px;
     text-align: center;
 }
-
+.images1-fonts-h3{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13.44px;
+    text-align: center;
+}
 .images1-fonts-h2 {
     font-size: 10px;
     font-weight: 600;
     line-height: 12px;
     text-align: center;
+}
+.images1-fonts-h4 {
+font-size: 10px;
+font-weight: 600;
+line-height: 12px;
+    text-align: center;
+}
+.images1-fonts-h4{
+    display: none;
+}
+.images1-fonts-h3{
+    display: none;
 }
 
 .main2-images1:hover .images1-fonts,
@@ -367,8 +403,13 @@ body {
     font-weight: 600;
     line-height: 13.44px;
     text-align: center;
+    transition: all 0.3s ease-in-out;
 }
-
+.main2-button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
 
 .main4-section {
     margin-bottom: 130px;
@@ -462,7 +503,7 @@ body {
 .main5-main-images1 {
     display: flex;
     gap: 20px;
-    max-width: 280px;
+    min-width: 280px;
     width: 100%;
     height: 280px;
     background-image: url(./images/last-whitepurse.svg);
@@ -474,7 +515,7 @@ body {
 .main5-main-images2 {
     display: flex;
     gap: 20px;
-    max-width: 280px;
+    min-width: 280px;
     width: 100%;
     height: 280px;
     background-image: url(./images/last-pinkpuse.svg);
@@ -486,7 +527,7 @@ body {
 .main5-main-images3 {
     gap: 20px;
     display: flex;
-    max-width: 280px;
+    min-width: 280px;
     width: 100%;
     height: 280px;
     background-image: url(./images/last-golden-brownpuse.svg);
@@ -498,7 +539,7 @@ body {
 .main5-main-images4 {
     gap: 20px;
     display: flex;
-    max-width: 280px;
+    min-width: 280px;
     width: 100%;
     height: 280px;
     background-image: url(./images/last-pure-brown.svg);
@@ -656,8 +697,59 @@ body {
 .header-shop-h1 img {
     display: none;
 }
+.main3-section{
+    margin: 130px 0;
+}
+.main3-section img{
+    width:100%;
+     height:850px;
+}
+.main3-section img{
+    width: 100%;
+    height: 900px;
 
+}
+.main-for-responsive-footer{
+    display: flex;
+    gap: 121px;
+
+}
 @media (max-width:1224px) {
+    .main3-section img{
+        width:100%;
+         height:425px;
+    }
+    .main2-images{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main2-images1{
+       margin: 0 auto;
+    }
+    .main2-images2{
+        margin: 0 auto;
+     }
+     .main2-images3{
+        margin: 0 auto;
+     }
+   .main1-center-image2-purse2{
+  background-image: url(./images/pink-purse.svg);
+   }
+   .main1-center-image2-purse3{
+    background-image: url(./images/grey-purse.svg);
+   }
+    .main1-center-image1{
+        padding-bottom: 54px;
+    }
+    .header-image img{
+        height: 20px;
+    }
+    .header-image{
+      width: 120px;
+    }
     .main1-center{
         width: 100%;
         flex-direction: column;
@@ -669,7 +761,152 @@ body {
     }
 }
 
-@media (max-width: 802px) {
+@media (max-width: 833px) {
+    .main2-images1:hover .images1-fonts,
+.main2-images2:hover .images1-fonts,
+.main2-images3:hover .images1-fonts {
+    background-color: transparent;
+}
+    .footer-section{
+        margin-bottom: 46px;
+    }
+  
+    .main-for-responsive-footer{
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .main-footer2-sectio1{
+        padding-bottom: 30px;
+    }
+    .main-footer2-sectio3{
+        max-width: 833px;
+        width: 100%;
+        padding-top: 40px;
+    }
+    
+    .main-footer{
+        gap: 20px;
+    }
+    .main-footer2{
+        flex-direction: column;
+    }
+    .main-footer2-sectio1{
+        flex-direction: row;
+        align-items: center;
+    }
+    .main5-main-images{
+        overflow: auto;
+    }
+    .main5-sction{
+        margin-bottom: 70px;
+    }
+    .main5{
+        gap: 40px;
+    }
+    .main5-heading{
+        gap: 20px;
+    }
+    .main5-head{
+        gap: 20px;
+    }
+    .main1-head{
+gap: 30px;
+    }
+    .main4-head2 img{
+        width: 280px;
+        height: 360px;
+    }
+    .main4-head2{
+        overflow: auto;
+    }
+    .main4-head1{
+        gap: 80px;
+    }
+    .main4{
+        gap: 40px;
+    }
+    .main3-section{
+        margin:75px 0 ;
+    }
+    .images1-fonts-h4,.images1-fonts-h3{
+     display: block;
+     color: black;
+    }
+    .images1-fonts-h1,.images1-fonts-h2{
+        display: none;
+    }
+    .main2-images{
+        overflow: auto;
+display: flex;
+gap: 8px;
+    }
+    .main2-images1{
+        width: 150px;
+        height: 200px;
+    }
+    .main2-images2{
+        width: 150px;
+        height: 200px;
+    }
+    .main2-images3{
+        width: 150px;
+        height: 200px;
+    }
+    .main2{
+        gap: 20px;
+    }
+    .main1-section{
+        margin-bottom: 80px;
+    }
+    .image2-purse-h2{
+        display: block;
+    }
+    .main1-for-fonts-responsive{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .main1-center-image1-h1{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+    }
+    .main1-center-image1{
+       width: 322px;
+    }
+    .main1-center-image2-purse1{
+        width: 158px;
+        height: 158px;
+    }
+    .main1-center-image2-purse2{
+        width: 158px;
+        height: 158px;
+    }
+    .main1-center-image2-purse3{
+        width: 158px;
+        height: 158px;
+    }
+    .main1-center-image2-purse4{
+        width: 158px;
+        height: 158px;
+    }
+    .image2-purse-h1{
+        display: none;
+    }
+    .main1{
+        gap: 34px;
+    }
+    .main-section1{
+        margin-bottom: 40px;
+    }
+    .header-nav1{
+        padding: 18px 0;
+    }
     .header-shop-h1 h1 {
         display: none;
     }
@@ -677,11 +914,6 @@ body {
     .header-shop-h1 img {
         display: block;
     }
-
-    .header-image {
-        width: 180px;
-    }
-
     .header-shop-h1 {
         width: 24px;
     }
@@ -715,6 +947,7 @@ body {
     }
 
     .main-head1 h1 {
+        width: 325px;
         font-size: 60px;
         font-weight: 500;
         line-height: 72px;
@@ -729,5 +962,13 @@ body {
 font-size: 18px;
 font-weight: 400;
 line-height: 23.4px;
+    }
+}
+@media (max-width: 400px) {
+    .main1-center-image2{
+        gap: 10px;
+    }
+    .main1-center-image3{
+        gap: 10px;
     }
 }
